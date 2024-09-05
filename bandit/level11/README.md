@@ -1,4 +1,4 @@
-# Bandit Level 10
+# Bandit Level 11
 
 ## Objective
 
