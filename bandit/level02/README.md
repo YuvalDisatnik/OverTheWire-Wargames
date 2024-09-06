@@ -33,4 +33,4 @@ The objective of Level 2 is to retrieve a password from a file named `spaces in 
 
 ## Password
 
-The password for Level 3 is: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+The password for Level 2 is: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
