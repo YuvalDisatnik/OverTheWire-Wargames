@@ -1,8 +1,8 @@
-# Bandit Level 03
+# Bandit Level 02
 
 ## Objective
 
-The objective of Level 3 is to retrieve a password from a file named `spaces in this filename` in the current directory.
+The objective of Level 2 is to retrieve a password from a file named `spaces in this filename` in the current directory.
 
 ## Solution
 
