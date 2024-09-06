@@ -2,7 +2,7 @@
 
 ## Objective
 
-The objective of Level 1 is to retrieve a password from a file named `readme` in the current directory.
+The objective of Level 0 is to retrieve a password from a file named `readme` in the current directory.
 
 ## Solution
 
@@ -27,5 +27,5 @@ The objective of Level 1 is to retrieve a password from a file named `readme` in
 
 ## Password
 
-The password for Level 1 is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+The password for Level 0 is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
