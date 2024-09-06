@@ -2,7 +2,7 @@
 
 ## Objective
 
-The objective of Level 2 is to retrieve a password from a file named `-` in the current directory.
+The objective of Level 1 is to retrieve a password from a file named `-` in the current directory.
 
 ## Solution
 
@@ -27,4 +27,4 @@ The objective of Level 2 is to retrieve a password from a file named `-` in the 
 
 ## Password
 
-The password for Level 2 is: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+The password for Level 1 is: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
