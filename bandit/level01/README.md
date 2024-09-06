@@ -1,4 +1,4 @@
-# Bandit Level 02
+# Bandit Level 01
 
 ## Objective
 
