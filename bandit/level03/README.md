@@ -1,8 +1,8 @@
-# Bandit Level 04
+# Bandit Level 03
 
 ## Objective
 
-The objective of Level 4 is to retrieve a password from a hidden file located in the `inhere` directory.
+The objective of Level 3 is to retrieve a password from a hidden file located in the `inhere` directory.
 
 ## Solution
 
@@ -40,4 +40,4 @@ The objective of Level 4 is to retrieve a password from a hidden file located in
 
 ## Password
 
-The password for Level 4 is: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+The password for Level 3 is: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
