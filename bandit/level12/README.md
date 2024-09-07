@@ -31,7 +31,10 @@ The password for the next level is stored in the file `data.txt`, which is a hex
      ```
 
 4. **Decompress Layers:**
-   - Identified the file type using `file` and performed the necessary decompression steps. Each time a new file type was detected, renamed the file with the appropriate extension and decompressed accordingly.
+   - Identified the file type using `file` and performed the necessary decompression steps.
+   
+   Each time a new file type was detected, renamed the file with the appropriate extension and decompressed accordingly.
+   
    This involved:
      ```bash
      gzip -d compressed_data.gz
