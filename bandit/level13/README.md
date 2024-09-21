@@ -2,40 +2,43 @@
 
 ## Objective
 
-The password for the next level is stored in `/etc/bandit_pass/bandit14` and can only be read by user `bandit14`. Instead of directly providing the password, you are given a private SSH key to log into the `bandit14` user account. 
+The password for the next level is stored in `/etc/bandit_pass/bandit14` and can only be read by the user `bandit14`. For this level, a private SSH key is provided to log in as `bandit14` on localhost using a non-standard SSH port.
 
 ## Solution
 
 ### Steps Taken
 
 1. **List Files:**
-   - First, I listed all the files in the current directory to locate the SSH private key.
+   - Used `ls -l -a` to search for the private SSH key. Found a file named `sshkey.private`.
      ```bash
      ls -l -a
      ```
-   - The output revealed a file named `sshkey.private`, which is the private SSH key required to log in to the `bandit14` user account.
 
 2. **Inspect the SSH Key:**
-   - I viewed the contents of the private SSH key to ensure it was a valid key.
+   - Used `cat sshkey.private` to view the private key for logging into the next level.
      ```bash
      cat sshkey.private
      ```
 
 3. **SSH into Bandit14:**
-   - Using the private key and specifying the correct SSH port (`2220`), I logged into the `bandit14` user account:
+   - Used the `ssh` command with the `-i` flag to specify the private key and `-p` to specify port 2220 for the connection to `bandit14@localhost`.
      ```bash
      ssh -i ./sshkey.private -p 2220 bandit14@localhost
      ```
 
-4. **Verify Successful Login:**
-   - After successfully logging in, I confirmed that I had access to the `bandit14` account, and I could proceed to the next level.
+4. **Retrieve the Password:**
+   - Once logged in as `bandit14`, used `cat` to display the password stored in `/etc/bandit_pass/bandit14`.
+     ```bash
+     cat /etc/bandit_pass/bandit14
+     ```
 
 ### Commands Used
 
-- **`ls -l -a`**: Lists all files in the current directory, including hidden ones.
-- **`cat sshkey.private`**: Displays the contents of the private SSH key.
-- **`ssh -i ./sshkey.private -p 2220 bandit14@localhost`**: Logs into the `bandit14` user account using the private key over SSH on port 2220.
+- **`ls -l -a`**: Lists all files, including hidden files, in long format.
+- **`cat`**: Displays the contents of files.
+- **`ssh -i`**: Specifies the SSH private key to use for logging in.
+- **`cat /etc/bandit_pass/bandit14`**: Reads the password file for the next level.
 
 ## Password
 
-The password for Level 14 is stored in `/etc/bandit_pass/bandit14`, accessible after logging in as `bandit14`.
+The password for Level 14 is: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
